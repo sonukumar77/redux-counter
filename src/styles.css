@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.counterContainer {
+  width: 50%;
+  height: 50%;
+  box-shadow: 0 0 10px black;
+}
+
+.counterContainer > p {
+  font-size: 3rem;
+}
+.counterContainer button {
+  margin-right: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: cyan;
+  border: none;
+  outline: none;
+  transition: all 0.4s ease-out;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
